@@ -1,0 +1,146 @@
+.head {
+  position: absolute;
+  left: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #242d60;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Helvetica Neue", "Ubuntu", sans-serif;
+  height: 100vh;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.product {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Helvetica Neue", "Ubuntu", sans-serif;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.tac {
+  margin-bottom: 1rem;
+}
+.tac a {
+  color: rgb(255, 246, 246);
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#TAC {
+  margin: 2rem;
+  padding: 2rem;
+}
+.tachead {
+  display: flex;
+  justify-content: center;
+}
+.tacfoot {
+  display: flex;
+  justify-content: space-between;
+}
+section {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 112px;
+  border-radius: 6px;
+  justify-content: space-between;
+}
+.product {
+  display: flex;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.154px;
+  color: #242d60;
+  height: 100%;
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+img {
+  border-radius: 6px;
+  margin: 10px;
+  width: 54px;
+  height: 57px;
+}
+h3,
+h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.154px;
+  color: #242d60;
+  margin: 0;
+}
+h5 {
+  opacity: 0.5;
+}
+button {
+  height: 36px;
+  background: #556cd6;
+  color: white;
+  width: 15rem;
+  font-size: 14px;
+  border: 0;
+  font: bold;
+  font-weight: 500;
+  cursor: pointer;
+  letter-spacing: 0.6;
+  border-radius: 0 0 6px 6px;
+  transition: all 0.2s ease;
+  box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
+}
+button:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 1180px) and (min-width: 280px) {
+  .head {
+    position: absolute;
+    left: -1rem;
+    width: 80%;
+    height: 50%;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    width: 9rem;
+  }
+  .tac a {
+    font-size: 12px;
+  }
+  .product {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Helvetica Neue", "Ubuntu", sans-serif;
+
+    width: 50%;
+  }
+  #TAC {
+    margin: 2px;
+    padding: 2px;
+  }
+}
